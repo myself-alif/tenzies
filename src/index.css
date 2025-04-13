@@ -57,11 +57,12 @@ main {
 
 @media screen and (max-width: 1080px) {
   main {
+    width: 100%;
     height: auto;
   }
   *,
   body {
-    overflow: auto !important;
+    overflow-y: auto;
   }
   .container {
     width: 80%;
@@ -73,11 +74,12 @@ main {
 }
 @media screen and (max-width: 500px) {
   main {
+    width: 100%;
     height: auto;
   }
   *,
   body {
-    overflow: auto !important;
+    overflow-y: auto;
   }
   .container {
     width: 95%;
